@@ -1,16 +1,14 @@
 1. Make sure that Npm is installed on your machine (only the first time)
 
-2. Make sure that Bower is installed globally on your machine (only the first time)
-$ npm install --global bower
+2. Restore npm packages
+> npm install
 
-3. Make sure that Gulp is installed globally on your machine (only the first time)
-$ npm install --global gulp
+3. Restore bower packages
+> ./node_modules/.bin/bower install
 
-4. Restore npm packages
-$ npm install
+4. Execute gulp default task
+> ./node_modules/.bin/gulp
 
-5. Restore bower packages
-$ bower install
 
-6. Execute gulp default task
-$ gulp
+Or just forget about it, if you have powershell installed, just execute:
+> prepare.ps1
